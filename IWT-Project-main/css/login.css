@@ -1,0 +1,86 @@
+body{
+    font-family: Arial;
+    background-color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    background-color:  rgb(241, 103, 11);
+    border-radius: 20px;
+}
+
+header{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 42px;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 394px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+.submit:hover{
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(4, 97, 32);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: white;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+label a{
+    color: white;
+    text-decoration: none;
+}
+.createAcc{
+    margin-top: 20px;
+    text-align: end;
+    color: white;
+}
+.createAcc a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+.createAcc a:hover{color:rgb(65, 9, 219);}

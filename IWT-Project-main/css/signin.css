@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    display: flex;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+.main{
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(241, 103, 11);
+    padding: 25px 30px;
+    border-radius: 20px;
+}
+h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    margin: 20px 20px 60px 20px;
+    line-height: 0.8;
+}
+form .details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 10px);
+}
+.details .input-box  .user{
+    display: block;
+    font-weight: 500;
+    margin: 15px;
+    width: 500px;
+    color: white;
+}
+.details .input-box1  .user1{
+    display: block;
+    font-weight: 500;
+    margin: 15px 0px 15px 0px;
+    color: white;
+}
+
+.details .input-box input{
+    height: 45px;
+    width: 275px;
+    outline: none;
+    border-radius: 17px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    margin-bottom: 2px;
+    
+
+}
+.details .input-box1 input{
+    height: 45px;
+    width: 185px;
+    outline: none;
+    border-radius: 17px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    margin: 0px 10px 0 0;
+    line-height: 1.5;
+
+}
+.create{
+    margin: 50px 25px 0px 200px;
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 17px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.login{
+    margin-top: 20px;
+    text-align: center;
+}
